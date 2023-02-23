@@ -367,7 +367,7 @@ body {
    position: absolute;
    z-index: 9;
    cursor: ew-resize;
-   background-image: url("./img/slider/Group.svg");
+   background-image: url("../img/slider/Group.svg");
    width: 67px;
    height: 67px;
 }
@@ -846,7 +846,7 @@ body {
    }
 
    &__img {
-      background: url(./img/about/about_top_image.png) no-repeat;
+      background: url(../img/about/about_top_image.png) no-repeat;
       width: 100%;
       max-width: 1280px;
       height: 350px;
@@ -924,14 +924,14 @@ body {
       width: 100%;
       height: 220px;
       cursor: pointer;
-      background-image: url(./img/about/about_player_bcg.png);
+      background-image: url(../img/about/about_player_bcg.png);
       @media (max-width: 1919px) {
          height: 277px;
-         background-image: url(./img/about/about_player_bcg_ipad.png);
+         background-image: url(../img/about/about_player_bcg_ipad.png);
       }
       @media (max-width: 767px) {
          height: 220px;
-         background-image: url(./img/about/about_player_bcg_mobile.png);
+         background-image: url(../img/about/about_player_bcg_mobile.png);
       }
    }
 }
@@ -1161,7 +1161,7 @@ body {
    }
 
    &__img {
-      background: url(./img/about/contlist-green-chek.svg) no-repeat;
+      background: url(../img/about/contlist-green-chek.svg) no-repeat;
       background-size: cover;
       width: 27px;
       height: 27px;
@@ -1194,7 +1194,7 @@ body {
 }
 .btnlink {
    &__img {
-      background: url(./img/about/about_bunner.png) no-repeat;
+      background: url(../img/about/about_bunner.png) no-repeat;
       background-size: cover;
       width: 685px;
       height: 178px;
@@ -1341,16 +1341,16 @@ body {
       height: 200px;
    }
    &__item-img1 {
-      background-image: url(./img/merega/merega_ul_top1.png);
+      background-image: url(../img/merega/merega_ul_top1.png);
    }
    &__item-img2 {
-      background-image: url(./img/merega/merega_ul_top2.png);
+      background-image: url(../img/merega/merega_ul_top2.png);
    }
    &__item-img3 {
-      background-image: url(./img/merega/merega_ul_top3.png);
+      background-image: url(../img/merega/merega_ul_top3.png);
    }
    &__item-img4 {
-      background-image: url(./img/merega/merega_ul_top4.png);
+      background-image: url(../img/merega/merega_ul_top4.png);
    }
 
    &__item-title {
@@ -1550,7 +1550,7 @@ body {
 }
 .form {
    &__bg {
-      background: url(./img/merega/merega_bottom_form.png) no-repeat;
+      background: url(../img/merega/merega_bottom_form.png) no-repeat;
       object-fit: cover;
       display: flex;
       justify-content: space-between;
